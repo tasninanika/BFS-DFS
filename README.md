@@ -1,4 +1,4 @@
-### Algorithm for the Given Graph Traversal Program
+# BFS-DFS Algorithm
 
 #### **1. Create a Graph:**
 - **Input:** Number of nodes in the graph, their values, and adjacency matrix.
@@ -50,10 +50,3 @@
      - For invalid choices, display an error message and re-display the menu.
   3. Repeat until the user chooses to exit.
 
-#### **Additional Notes:**
-- **Status Array Values:**
-  - `1` → Ready
-  - `2` → Waiting
-  - `3` → Processed
-- **Queue and Stack:** Used to manage BFS and DFS traversals, respectively.
-- **Input Validation:** Ensure that the input for nodes, adjacency matrix, and traversal choices are within valid bounds.
